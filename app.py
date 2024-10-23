@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Hugging Face model and tokenizer names
-MODEL_NAME = "Asif123QWE/lora_model"  # Replace with your actual model path on Hugging Face
+MODEL_NAME = "Asif123QWE/Asifmodel"  # Replace with your actual model path on Hugging Face
 
 # Load model and tokenizer from Hugging Face
 @st.cache_resource
